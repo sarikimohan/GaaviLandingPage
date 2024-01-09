@@ -19,19 +19,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas. "
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdf ahkdlghalhgp aihfhahkerkjabdfajdf",
   },
 ];
 
@@ -62,9 +62,9 @@ const index = ({ setSelectedPage }: Props) => {
           <HText>MORE THAN JUST GYM.</HText>
 
           <p className="my-5 text-sm">
-            alfkah;gkah;gkha;ghadbfbak;jgak;jhg;ahgfk;abgak;bga;kbg;kajh
-            alef;kahgkadnfkahd;ghaghadhadhsf;ahd;nakgkbakdgkjhadkghakdbfk;abdkfb
-            ahlkhgakldgkahdkfhaklghakhgadnf.
+            This handout will help you understand how paragraphs are formed, how
+            to develop stronger paragraphs, and how to completely and clearly
+            express your ideas.
           </p>
         </motion.div>
 
@@ -124,30 +124,33 @@ const index = ({ setSelectedPage }: Props) => {
 
             {/* DESCRIPT */}
             <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ delay:0.2,duration: 0.5 }}
-            variants={{
-              hidden: { opacity: 0, x: -50 },
-              visible: { opacity: 1, x: 0 },
-            }}>
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0 },
+              }}
+            >
               <p>
-                frj;lfha;ghlaghlahgl
-                agha;lhfgl;hakgljalhkanmabfgajkdgflagdfuagefuga jhgfjagja
-                ufagjfgajkegfi uageirgfadjhfgagdjhfgajgefjageifgajhjha
-                jfgajgfjhajgflakgiagriugfaj
-                ajgfadfiafgjahgkjhargiahiugfiauhrguiharuigiaegiagiugag
-                agfjagjhakhg;aehiuagirgaiuwgeirugaiwgiariuguiahg
-                aiuhkjagfkjhakafgkhakjglkahlkfgh
+                Paragraphs are the building blocks of papers. Many students
+                define paragraphs in terms of length: a paragraph is a group of
+                at least five sentences, a paragraph is half a page long, etc.
+                In reality, though, the unity and coherence of ideas among
+                sentences is what constitutes a paragraph. A paragraph is
+                defined as “a group of sentences or a single sentence that forms
+                a unit” (Lunsford and Connors 116).
               </p>
+              <br />
               <p>
-                aifuahghaiugriuagefbajbfageifaiuegiaprgiadfgkjgcbjhgiuaguiag
-                adjfgajdgfjlaglfhaijbadbflfgaiurgiarigaiuew
-                ajdgkjahlkjgakgdiugiua
-                akhhiahglahdkauhiawehkjhiusgfjaebjagliaufgabkfg
-                falkjghakgbauighairkjabjfgakghiuagjaebkjfgklahfiuaej
-                ugjhfgalelfiaegwigael afjvdjfvjavf jdbfjavdfvhajvfjva
+                Length and appearance do not determine whether a section in a
+                paper is a paragraph. For instance, in some styles of writing,
+                particularly journalistic styles, a paragraph can be just one
+                sentence long. Ultimately, a paragraph is a sentence or group of
+                sentences that support one main idea. In this handout, we will
+                refer to this as the “controlling idea,” because it controls
+                what happens in the rest of the paragraph.
               </p>
             </motion.div>
 
