@@ -19,19 +19,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas. "
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdfahkdlghalhgpaihfhahkerkjabdfajdf",
+      "akhfkjahkflh adfa;hg;aohoiheorahkfakdhf kajhgklahdf ahkdlghalhgp aihfhahkerkjabdfajdf",
   },
 ];
 
