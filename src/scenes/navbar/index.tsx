@@ -5,6 +5,7 @@ import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import ActionButton from "@/shared/ActionButton";
+import NavGaaviLogo from "@/assets/gaaviLogo226by48.png"
 
 type Props = {
   isTopOfPage: boolean;
@@ -23,7 +24,7 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
-            <img alt="logo" src={Logo} />
+            <img alt="logo" src={NavGaaviLogo} />
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
