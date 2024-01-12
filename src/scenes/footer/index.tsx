@@ -14,15 +14,13 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-10">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">djla;f fad;</p>
-          <p className="my-5">alf;kjl oiahfdj</p>
-          <p>fjlajflaf;</p>
+          <p className="my-5">privacy policy</p>
+          <p className="my-5">terms and conditions</p>
+          <p className="my-5">refund policy</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-10">
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">djla;f fad;</p>
-          <p className="my-5">alf;kjl oiahfdj</p>
-          <p>76869585986</p>
+          <p className="my-5">support@gaavi.com</p>
         </div>
       </div>
     </footer>
