@@ -7,7 +7,6 @@ import {
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Benefits from "./Benefits";
-import ActionButton from "@/shared/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
 
 type Props = {
