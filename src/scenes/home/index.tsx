@@ -1,8 +1,5 @@
 import { SelectedPage } from "@/shared/types";
-import ActionButton from "@/shared/ActionButton";
-// import GaaviLogo from "@/assets/gaaviLogo226by48.png"
 import HomePageText from "@/assets/HomePageText.png"
-// import ConnextText from "@/assets/ConnectText.png"
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
