@@ -24,7 +24,7 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
-            <img alt="logo" src={NavGaaviLogo} />
+            <img className="ml-[-50px]" alt="logo" src={NavGaaviLogo} />
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
@@ -55,7 +55,7 @@ const Navbar = ({ isTopOfPage,selectedPage, setSelectedPage }: Props) => {
                 <div className={`${flexBetween} gap-8`}>
                   <p>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
-                    Become a Member
+                    Login/SignUp
                   </ActionButton>
                 </div>
               </div>

@@ -7,6 +7,7 @@ import OurClasses from "./scenes/ourClasses";
 import ContactUs from "./scenes/contactus";
 import Footer from "./scenes/footer";
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home,

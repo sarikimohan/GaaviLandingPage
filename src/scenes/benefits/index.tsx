@@ -19,7 +19,7 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas. "
+      "This handout will help you understand how paragraphs are formed, how to develop stronger paragraphs, and how to completely and clearly express your ideas. ",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
@@ -157,9 +157,13 @@ const index = ({ setSelectedPage }: Props) => {
             {/* BUTTON */}
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
-                </ActionButton>
+                <a
+                  className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white"
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.hylessa.app&hl=en_IN&gl=US&pli=1"
+                >
+                  Download from Play store
+                </a>
               </div>
             </div>
           </div>
